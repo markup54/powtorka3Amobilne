@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Powtorka3A</string>
+    <string-array name="obrazki">
+        <item>KAsprowy</item>
+        <item>Kozi Wierch</item>
+        <item>Rysy</item>
+        <item>Świnica</item>
+    </string-array>
+</resources>
