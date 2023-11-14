@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Powtorka3A"
         tools:targetApi="31">
         <activity
-            android:name=".FormularzActivity"
+            android:name=".PacakActivity"
             android:exported="true">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -25,10 +25,24 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".GaleriaActivity"
             android:exported="true">
 
 
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FormularzActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
